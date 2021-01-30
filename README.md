@@ -5,8 +5,8 @@ We use a tuple to list an edge: ``([ dart1, dart2 ], label)``
 and use a tuple to list a vertex: ``([ dart1, dart2, dart3, ... ], label)``
 so that ``edges`` is a list of tuples and ``vertices`` is also a list of tuples.
 
-Our darts ``dart1,dart2,...`` are non-negative integers while ``label`` can be a number or a string. Also ``label`` can be empty but a comma must follow the list of darts
-eg. ``([1,2,3], )`` is valid but ``([1,2,3] )`` is invalid.
+Our darts ``dart1,dart2,...`` are non-negative integers while ``label`` can be a number or a string. Alternatively ``label`` can be left empty but a comma must follow the list of darts
+eg. ``([1,2,3], )`` is valid but ``([1,2,3] )`` is invalid. An empty label is set to ``None`` by default.
 
 Note that the **order of the darts** in  each vertex is important! We list the darts in the counter-clockwise direction (It determines the embedding in an orientable surface).
 
