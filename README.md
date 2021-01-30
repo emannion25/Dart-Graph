@@ -1,6 +1,7 @@
 # Dart-Graph
 
-Some text
+## What is a Dart Graph?
 
-
-|<img src="images/graph3normal.png" alt="Normal Notation" height="200px"/>| <img src="images/graph3dart.png" alt="Dart Notation" height="200"/>|
+| Normal | Dart |
+|---|---|
+|<img src="images/graph3normal.png" alt="Normal Notation" height="300px"/>| <img src="images/graph3dart.png" alt="Dart Notation" height="300"/>|
