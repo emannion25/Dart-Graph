@@ -2,6 +2,7 @@
 
 Some text
 
-![plot](graph3normal.png)
+
+<img src="graph3normal.jpg" width="200" height="200"/>
 
 hello
