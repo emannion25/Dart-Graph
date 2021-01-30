@@ -30,9 +30,21 @@ The image on the right shows the same graph *G* but using dart notation.
 This graph is defined over the set of darts *D* = {1, 2, 3, 4, 5, 6}.
 Here the edge *e1* becomes the pair {1, 2}, *e2* is the pair {3, 4} and *e3* is the pair {5, 6}.
 The vertex *v1* becomes the set {1, 6}, *v2* = {2, 3} and *v3* = {4, 5}. 
-Here *E* ={{1, 2}, {3, 4}, {5, 6}} and *V* = {{1, 6}, {2, 3}, {4, 5}}
+Here we have edge set *E* ={{1, 2}, {3, 4}, {5, 6}} and vertex set *V* = {{1, 6}, {2, 3}, {4, 5}}
 
+## Example
+The following piece of code is used to create the dart graph object for graph *G* above.
+```python
 
+from DartClass import Dartgraph
+edges = [ ( [ 1 , 2 ] , ’ e1 ’ ) ,
+          ( [ 3 , 4 ] , ’ e2 ’ ) ,
+          ( [ 5 , 6 ] , ’ e3 ’ ) ]
+vertices = [ ( [ 1 , 6 ] , ’ v1 ’ ) ,
+             ( [ 2 , 3 ] , ’ v2 ’ ) ,
+             ( [ 4 , 5 ] , ’ v3 ’ ) ]
+G = Dartgraph( edges, vertices )
+```
 
 
 
